@@ -556,7 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24C62865C7EFAE3E444317D0 /* Pods-EntCore-EntCoreTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MAHP4V254;
@@ -574,7 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9ADB685C9628BFB2CACB20F /* Pods-EntCore-EntCoreTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MAHP4V254;
