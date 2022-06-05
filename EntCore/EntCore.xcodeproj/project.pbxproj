@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740C7071E43939D042E98072 /* Pods_EntCore_EntCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE45A2A64A0CD178BBF69A9 /* Pods_EntCore_EntCoreTests.framework */; };
 		88BD9673284CAF2500DF346E /* EntCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9672284CAF2500DF346E /* EntCore.docc */; };
 		88BD9679284CAF2500DF346E /* EntCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD966E284CAF2500DF346E /* EntCore.framework */; };
 		88BD967E284CAF2500DF346E /* EntCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD967D284CAF2500DF346E /* EntCoreTests.swift */; };
@@ -14,6 +15,12 @@
 		88BD968A284CAF5D00DF346E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88BD968C284CAF5D00DF346E /* Localizable.strings */; };
 		88BD968F284CAF8F00DF346E /* EntLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD968E284CAF8F00DF346E /* EntLocalization.swift */; };
 		88BD9695284CAFD900DF346E /* EntConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9694284CAFD900DF346E /* EntConfig.swift */; };
+		88BD9698284CB05800DF346E /* EntImageServiceCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9697284CB05800DF346E /* EntImageServiceCacheProtocol.swift */; };
+		88BD969A284CB08B00DF346E /* EntImageServiceUrlCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9699284CB08B00DF346E /* EntImageServiceUrlCache.swift */; };
+		88BD969C284CB0AA00DF346E /* EntImageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD969B284CB0AA00DF346E /* EntImageServiceProtocol.swift */; };
+		88BD969E284CB0D300DF346E /* EntImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD969D284CB0D300DF346E /* EntImageService.swift */; };
+		88BD96A0284CB16E00DF346E /* EntDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD969F284CB16E00DF346E /* EntDI.swift */; };
+		EFBD8F2ED9C56A7C7ECA446D /* Pods_EntCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9130BC6828E27DC3DAFB704 /* Pods_EntCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24C62865C7EFAE3E444317D0 /* Pods-EntCore-EntCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntCore-EntCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-EntCore-EntCoreTests/Pods-EntCore-EntCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		88BD966E284CAF2500DF346E /* EntCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EntCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BD9671284CAF2500DF346E /* EntCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntCore.h; sourceTree = "<group>"; };
 		88BD9672284CAF2500DF346E /* EntCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EntCore.docc; sourceTree = "<group>"; };
@@ -36,6 +44,16 @@
 		88BD968D284CAF5E00DF346E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88BD968E284CAF8F00DF346E /* EntLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntLocalization.swift; sourceTree = "<group>"; };
 		88BD9694284CAFD900DF346E /* EntConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntConfig.swift; sourceTree = "<group>"; };
+		88BD9697284CB05800DF346E /* EntImageServiceCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntImageServiceCacheProtocol.swift; sourceTree = "<group>"; };
+		88BD9699284CB08B00DF346E /* EntImageServiceUrlCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntImageServiceUrlCache.swift; sourceTree = "<group>"; };
+		88BD969B284CB0AA00DF346E /* EntImageServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntImageServiceProtocol.swift; sourceTree = "<group>"; };
+		88BD969D284CB0D300DF346E /* EntImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntImageService.swift; sourceTree = "<group>"; };
+		88BD969F284CB16E00DF346E /* EntDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntDI.swift; sourceTree = "<group>"; };
+		A828FA82A6E3D0F308D6D909 /* Pods-EntCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntCore.debug.xcconfig"; path = "Target Support Files/Pods-EntCore/Pods-EntCore.debug.xcconfig"; sourceTree = "<group>"; };
+		C100D0B8B5074F2EE9A0BC5F /* Pods-EntCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntCore.release.xcconfig"; path = "Target Support Files/Pods-EntCore/Pods-EntCore.release.xcconfig"; sourceTree = "<group>"; };
+		D9130BC6828E27DC3DAFB704 /* Pods_EntCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ADB685C9628BFB2CACB20F /* Pods-EntCore-EntCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntCore-EntCoreTests.release.xcconfig"; path = "Target Support Files/Pods-EntCore-EntCoreTests/Pods-EntCore-EntCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE45A2A64A0CD178BBF69A9 /* Pods_EntCore_EntCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntCore_EntCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBD8F2ED9C56A7C7ECA446D /* Pods_EntCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BD9679284CAF2500DF346E /* EntCore.framework in Frameworks */,
+				740C7071E43939D042E98072 /* Pods_EntCore_EntCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,8 @@
 				88BD9670284CAF2500DF346E /* EntCore */,
 				88BD967C284CAF2500DF346E /* EntCoreTests */,
 				88BD966F284CAF2500DF346E /* Products */,
+				E3C6838D36362F911E515815 /* Pods */,
+				967315E0090CCAF98DC6A769 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +100,13 @@
 		88BD9670284CAF2500DF346E /* EntCore */ = {
 			isa = PBXGroup;
 			children = (
+				88BD9696284CB04100DF346E /* ImageService */,
 				88BD9671284CAF2500DF346E /* EntCore.h */,
 				88BD9672284CAF2500DF346E /* EntCore.docc */,
 				88BD968C284CAF5D00DF346E /* Localizable.strings */,
 				88BD968E284CAF8F00DF346E /* EntLocalization.swift */,
 				88BD9694284CAFD900DF346E /* EntConfig.swift */,
+				88BD969F284CB16E00DF346E /* EntDI.swift */,
 			);
 			path = EntCore;
 			sourceTree = "<group>";
@@ -93,6 +117,38 @@
 				88BD967D284CAF2500DF346E /* EntCoreTests.swift */,
 			);
 			path = EntCoreTests;
+			sourceTree = "<group>";
+		};
+		88BD9696284CB04100DF346E /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
+				88BD9697284CB05800DF346E /* EntImageServiceCacheProtocol.swift */,
+				88BD9699284CB08B00DF346E /* EntImageServiceUrlCache.swift */,
+				88BD969B284CB0AA00DF346E /* EntImageServiceProtocol.swift */,
+				88BD969D284CB0D300DF346E /* EntImageService.swift */,
+			);
+			path = ImageService;
+			sourceTree = "<group>";
+		};
+		967315E0090CCAF98DC6A769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9130BC6828E27DC3DAFB704 /* Pods_EntCore.framework */,
+				FAE45A2A64A0CD178BBF69A9 /* Pods_EntCore_EntCoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C6838D36362F911E515815 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A828FA82A6E3D0F308D6D909 /* Pods-EntCore.debug.xcconfig */,
+				C100D0B8B5074F2EE9A0BC5F /* Pods-EntCore.release.xcconfig */,
+				24C62865C7EFAE3E444317D0 /* Pods-EntCore-EntCoreTests.debug.xcconfig */,
+				E9ADB685C9628BFB2CACB20F /* Pods-EntCore-EntCoreTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88BD9682284CAF2500DF346E /* Build configuration list for PBXNativeTarget "EntCore" */;
 			buildPhases = (
+				417F78DDA938AACFBF4CA2EF /* [CP] Check Pods Manifest.lock */,
 				88BD9669284CAF2500DF346E /* Headers */,
 				88BD966A284CAF2500DF346E /* Sources */,
 				88BD966B284CAF2500DF346E /* Frameworks */,
@@ -131,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88BD9685284CAF2500DF346E /* Build configuration list for PBXNativeTarget "EntCoreTests" */;
 			buildPhases = (
+				192E0316B3BBABFC386F5BFE /* [CP] Check Pods Manifest.lock */,
 				88BD9674284CAF2500DF346E /* Sources */,
 				88BD9675284CAF2500DF346E /* Frameworks */,
 				88BD9676284CAF2500DF346E /* Resources */,
+				34ED8DEC1372A3A125C9CCCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +259,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		192E0316B3BBABFC386F5BFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EntCore-EntCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34ED8DEC1372A3A125C9CCCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntCore-EntCoreTests/Pods-EntCore-EntCoreTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntCore-EntCoreTests/Pods-EntCore-EntCoreTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EntCore-EntCoreTests/Pods-EntCore-EntCoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		417F78DDA938AACFBF4CA2EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EntCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88BD966A284CAF2500DF346E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -207,7 +330,12 @@
 			files = (
 				88BD968F284CAF8F00DF346E /* EntLocalization.swift in Sources */,
 				88BD9695284CAFD900DF346E /* EntConfig.swift in Sources */,
+				88BD96A0284CB16E00DF346E /* EntDI.swift in Sources */,
+				88BD969E284CB0D300DF346E /* EntImageService.swift in Sources */,
+				88BD969A284CB08B00DF346E /* EntImageServiceUrlCache.swift in Sources */,
+				88BD969C284CB0AA00DF346E /* EntImageServiceProtocol.swift in Sources */,
 				88BD9673284CAF2500DF346E /* EntCore.docc in Sources */,
+				88BD9698284CB05800DF346E /* EntImageServiceCacheProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +492,7 @@
 		};
 		88BD9683284CAF2500DF346E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A828FA82A6E3D0F308D6D909 /* Pods-EntCore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -394,6 +523,7 @@
 		};
 		88BD9684284CAF2500DF346E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C100D0B8B5074F2EE9A0BC5F /* Pods-EntCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -424,6 +554,7 @@
 		};
 		88BD9686284CAF2500DF346E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C62865C7EFAE3E444317D0 /* Pods-EntCore-EntCoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +572,7 @@
 		};
 		88BD9687284CAF2500DF346E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ADB685C9628BFB2CACB20F /* Pods-EntCore-EntCoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
