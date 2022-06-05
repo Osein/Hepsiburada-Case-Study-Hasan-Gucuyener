@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:EntCore/EntCore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Entities.xcodeproj">
    </FileRef>
    <FileRef

@@ -13,6 +13,8 @@
 		88A1A6E4284CAD6B008CFCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A1A6E3284CAD6B008CFCD8 /* Assets.xcassets */; };
 		88A1A6E7284CAD6B008CFCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A1A6E5284CAD6B008CFCD8 /* LaunchScreen.storyboard */; };
 		88A1A6F2284CAD6B008CFCD8 /* EntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1A6F1284CAD6B008CFCD8 /* EntitiesTests.swift */; };
+		88BD9691284CAFAF00DF346E /* EntCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD9690284CAFAF00DF346E /* EntCore.framework */; };
+		88BD9692284CAFAF00DF346E /* EntCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD9690284CAFAF00DF346E /* EntCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A89B0CE3B0A109DF211B2240 /* Pods_Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9F64A9A05849D811592D42 /* Pods_Entities.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,20 @@
 			remoteInfo = Entities;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88BD9693284CAFAF00DF346E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				88BD9692284CAFAF00DF346E /* EntCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		044D8D9CFC8246879D31F893 /* Pods-EntitiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntitiesTests.debug.xcconfig"; path = "Target Support Files/Pods-EntitiesTests/Pods-EntitiesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,6 +56,7 @@
 		88A1A6E8284CAD6B008CFCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88A1A6ED284CAD6B008CFCD8 /* EntitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1A6F1284CAD6B008CFCD8 /* EntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesTests.swift; sourceTree = "<group>"; };
+		88BD9690284CAFAF00DF346E /* EntCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EntCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9F64A9A05849D811592D42 /* Pods_Entities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Entities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -49,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89B0CE3B0A109DF211B2240 /* Pods_Entities.framework in Frameworks */,
+				88BD9691284CAFAF00DF346E /* EntCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,7 @@
 		5F20D8B4DABC0706C7E03ED2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88BD9690284CAFAF00DF346E /* EntCore.framework */,
 				BE9F64A9A05849D811592D42 /* Pods_Entities.framework */,
 				4A5A6F6096B079BA2AF4B12A /* Pods_EntitiesTests.framework */,
 			);
@@ -128,7 +147,6 @@
 				044D8D9CFC8246879D31F893 /* Pods-EntitiesTests.debug.xcconfig */,
 				7C80DEF6B13BE9740ACE8E81 /* Pods-EntitiesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +162,7 @@
 				88A1A6D4284CAD6B008CFCD8 /* Frameworks */,
 				88A1A6D5284CAD6B008CFCD8 /* Resources */,
 				55D013DED6386D226AC36BE7 /* [CP] Embed Pods Frameworks */,
+				88BD9693284CAFAF00DF346E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  EntCore
+
+  Created by Hasolas on 5.06.2022.
+  
+*/
+
+"global_network_connection_warning" = "Error with the connection. Please check your internet and retry later.";
+"entity_list__please_write_something_to_search" = "To get started, please write at least 3 characters to search box.";
+"entity_list__no_results_for_your_search" = "There were no results for your search. Please try again with different inputs.";
