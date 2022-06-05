@@ -9,7 +9,6 @@ import UIKit
 
 public protocol EntImageServiceProtocol {
     
-    func getCache() -> EntImageServiceCacheProtocol
     func getImage(imageURL: URL, completion: @escaping ((Result<UIImage, Error>) -> Void))
     
 }

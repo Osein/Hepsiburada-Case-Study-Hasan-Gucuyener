@@ -20,8 +20,37 @@ target 'Entities' do
 
 end
 
+target 'ListScreen' do
+  project 'ListScreen/ListScreen.xcproj'
+  
+  use_frameworks!
+  
+  pod 'Swinject'
+  pod 'Moya', '~> 15.0'
+  pod 'ReachabilitySwift'
+  pod 'SVProgressHUD'
+  
+  target 'ListScreenTests' do
+    use_frameworks!
+    
+    pod 'Moya', '~> 15.0'
+  end
+end
+
+target 'DetailScreen' do
+  project 'DetailScreen/DetailScreen.xcproj'
+  
+  use_frameworks!
+  
+  pod 'Swinject'
+  pod 'Moya', '~> 15.0'
+  pod 'ReachabilitySwift'
+  pod 'SVProgressHUD'
+end
+
 target 'EntCore' do
   project 'EntCore/EntCore.xcproj'
+  
   use_frameworks!
   
   pod 'Swinject'
@@ -30,6 +59,8 @@ target 'EntCore' do
   pod 'SVProgressHUD'
   
   target 'EntCoreTests' do
+    use_frameworks!
+    
     pod 'Swinject'
   end
 end

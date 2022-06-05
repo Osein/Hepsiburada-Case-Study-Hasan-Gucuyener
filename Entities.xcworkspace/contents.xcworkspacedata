@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DetailScreen/DetailScreen.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ListScreen/ListScreen.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:EntCore/EntCore.xcodeproj">
    </FileRef>
    <FileRef
